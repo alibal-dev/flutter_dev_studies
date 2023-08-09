@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                   side: BorderSide(strokeAlign: 5)))),
-      home: NewCard(),
+      home: TabLearn(),
     );
   }
 }
