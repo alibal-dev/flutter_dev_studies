@@ -27,6 +27,7 @@ import '101/stateful_life_cycle_learn.dart';
 import '101/statefull_learn.dart';
 import '101/stateless_learn.dart';
 import '101/text_field_learn.dart';
+import '202/model_learn_view.dart';
 import '202/tab_bar_learn.dart';
 import 'credit_card_payment_design/add_new_card.dart';
 
@@ -70,7 +71,7 @@ class MyApp extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                   side: BorderSide(strokeAlign: 5)))),
-      home: TabLearn(),
+      home: ModelLearnView(),
     );
   }
 }
