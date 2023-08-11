@@ -30,7 +30,7 @@ class _ServiceLearnState extends State<ServiceLearn> {
       _isLoading = true;
     });
     final response =
-        await Dio().get('https://jsonplaceholder.typicode.com/posts/1');
+        await Dio().get('https://jsonplaceholder.typicode.com/posts');
     print(response);
 
     if (response.statusCode == HttpStatus.ok) {
