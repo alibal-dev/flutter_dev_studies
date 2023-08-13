@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 
@@ -30,5 +30,5 @@ class LighTheme {
 
 class _LightColor {
   final Color _textColor = const Color.fromARGB(255, 37, 5, 5);
-  final Color blueMenia = const Color.fromARGB(95, 188, 248, 1);
+  final Color blueMenia = Color.fromARGB(95, 3, 4, 1);
 }
