@@ -1,3 +1,5 @@
+// ignore_for_file: sort_child_properties_last, deprecated_member_use, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class ButtonLearn extends StatelessWidget {

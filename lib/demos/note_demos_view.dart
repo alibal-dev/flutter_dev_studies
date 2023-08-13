@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_declarations, unnecessary_const, no_leading_underscores_for_local_identifiers, constant_identifier_names, prefer_const_constructors, deprecated_member_use, camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:flutter_dev/101/image_learn.dart';
 import 'package:flutter_dev/demos/example_page.dart';

@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors, sort_child_properties_last
+
 import 'package:flutter/material.dart';
 
 class ContainerSizedBoxLearn extends StatelessWidget {

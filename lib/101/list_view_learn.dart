@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, prefer_const_constructors, unused_element, avoid_print
+
 import 'package:flutter/material.dart';
 
 class ListViewLearn extends StatefulWidget {
@@ -10,19 +12,16 @@ class ListViewLearn extends StatefulWidget {
 class _ListViewLearnState extends State<ListViewLearn> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     super.didChangeDependencies();
   }
 
   @override
   void didUpdateWidget(covariant ListViewLearn oldWidget) {
-    // TODO: implement didUpdateWidget
     super.didUpdateWidget(oldWidget);
   }
 

@@ -1,4 +1,6 @@
 //eager singleton
+// ignore_for_file: prefer_final_fields
+
 class Singleton {
   static Singleton _instance = Singleton._();
   Singleton._();

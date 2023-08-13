@@ -1,5 +1,8 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
 class AppBarLearnView extends StatelessWidget {
   const AppBarLearnView({Key? key}) : super(key: key);
   final String _title = 'Welcome Learn';
