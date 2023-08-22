@@ -1,4 +1,4 @@
-// ignore_for_file: deprecated_member_use, prefer_const_constructors
+// ignore_for_file: deprecated_member_use, prefer_const_constructors, unused_field
 
 import 'package:flutter/material.dart';
 
@@ -7,13 +7,19 @@ class LighTheme {
 
   late ThemeData theme;
 
-  LighTheme() {
+/*   LighTheme() {
     theme = ThemeData(
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(40))),
+              alignment: Alignment.center),
+        ),
         appBarTheme: const AppBarTheme(
             shape: RoundedRectangleBorder(
                 borderRadius:
                     BorderRadius.vertical(bottom: Radius.circular(20)))),
-        scaffoldBackgroundColor: Colors.white.withOpacity(0.9),
+        scaffoldBackgroundColor: Colors.white,
         floatingActionButtonTheme:
             const FloatingActionButtonThemeData(backgroundColor: Colors.green),
         buttonTheme: ButtonThemeData(
@@ -25,7 +31,7 @@ class LighTheme {
             side: const BorderSide(color: Colors.green)),
         textTheme: ThemeData.light().textTheme.copyWith(
             subtitle1: TextStyle(fontSize: 25, color: _lightColor._textColor)));
-  }
+  } */
 }
 
 class _LightColor {
