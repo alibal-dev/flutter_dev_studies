@@ -34,15 +34,11 @@ import '101/statefull_learn.dart';
 import '101/stateless_learn.dart';
 import '101/text_field_learn.dart';
 import '202/model_learn_view.dart';
-<<<<<<< HEAD
 import '202/package_learn_view.dart';
 import '202/service/new_service_learn_view,.dart';
 import '202/service/pokeservice/poke_service_get_view.dart';
 import '202/service/service_learn_view.dart';
 import '202/service/service_post_view.dart';
-=======
-import '202/service/service_learn_view.dart';
->>>>>>> master
 import '202/tab_bar_learn.dart';
 import '202/widget_enum_size.dart';
 import 'credit_card_payment_design/add_new_card.dart';
@@ -112,28 +108,9 @@ class MyApp extends StatelessWidget {
               )),
               cardTheme: CardTheme(
                   shape: RoundedRectangleBorder(
-<<<<<<< HEAD
                       borderRadius: BorderRadius.circular(20),
                       side: BorderSide(strokeAlign: 5)))),
       home: HarryPCharacters(),
-=======
-                      borderRadius: BorderRadius.all(Radius.circular(15))))),
-          scaffoldBackgroundColor: Colors.black,
-          appBarTheme: (const AppBarTheme(
-            titleTextStyle: TextStyle(color: Colors.white, fontSize: 18),
-            centerTitle: true,
-            elevation: 0,
-            backgroundColor: Colors.blueAccent,
-            actionsIconTheme: IconThemeData(color: Colors.black),
-            toolbarTextStyle: TextStyle(color: Colors.black),
-            systemOverlayStyle: SystemUiOverlayStyle.dark,
-          )),
-          cardTheme: CardTheme(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
-                  side: BorderSide(strokeAlign: 5)))),
-      home: ServiceLearn(),
->>>>>>> master
     );
   }
 }

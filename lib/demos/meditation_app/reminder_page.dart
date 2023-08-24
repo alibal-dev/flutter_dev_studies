@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_dev/demos/meditation_app/widget/day_picker.dart';
-import 'package:flutter_dev/random_trials.dart';
 import 'package:time_picker_spinner/time_picker_spinner.dart';
 
 class ReminderPage extends StatefulWidget {
