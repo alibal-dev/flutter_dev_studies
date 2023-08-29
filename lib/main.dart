@@ -8,10 +8,12 @@ import 'package:flutter_dev/202/animated_learn.dart';
 import 'package:flutter_dev/202/image_learn_202.dart';
 import 'package:flutter_dev/202/oop_learn_view.dart';
 import 'package:flutter_dev/202/service/HarryPotterservice/hp_service_get.dart';
+import 'package:flutter_dev/202/service/RiverPodHarryPotter/hp_design.dart';
 import 'package:flutter_dev/202/theme/light_theme.dart';
 import 'package:flutter_dev/demos/meditation_app/home_page.dart';
 import 'package:flutter_dev/demos/password_text_field.dart';
 import 'package:flutter_dev/random_trials.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '101/app_bar_learn.dart';
 import '101/button_learn.dart';
 import '101/card_learn.dart';
@@ -59,13 +61,12 @@ import 'demos/stack_demo_view.dart';
 import 'dart:ui' show lerpDouble;
 
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -110,7 +111,7 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                       side: BorderSide(strokeAlign: 5)))),
-      home: HarryPCharacters(),
+      home: CharactersPage(),
     );
   }
 }
