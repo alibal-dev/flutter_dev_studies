@@ -12,6 +12,7 @@ import 'package:flutter_dev/202/service/RiverPodHarryPotter/hp_design.dart';
 import 'package:flutter_dev/202/theme/light_theme.dart';
 import 'package:flutter_dev/demos/meditation_app/home_page.dart';
 import 'package:flutter_dev/demos/password_text_field.dart';
+import 'package:flutter_dev/grid.dart';
 import 'package:flutter_dev/random_trials.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '101/app_bar_learn.dart';
@@ -61,7 +62,7 @@ import 'demos/stack_demo_view.dart';
 import 'dart:ui' show lerpDouble;
 
 void main() {
-  runApp(ProviderScope(child: MyApp()));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -111,7 +112,7 @@ class MyApp extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                       side: BorderSide(strokeAlign: 5)))),
-      home: CharactersPage(),
+      home: EntrancePage(),
     );
   }
 }
